@@ -27,14 +27,14 @@ export default function Documents() {
                     style={{height: "48px"}}>
                     <div>
                         <Image
-                            src="/logo.svg"
+                            src="/public/logo.svg"
                             alt="Логотип"/>
                     </div>
                     <button
                         onClick={signin}
                         className="flex flex-col items-center justify-end">
                         <Image
-                            src="/signout.svg"
+                            src="/public/signout.svg"
                             alt="Иконка выхода"/>
                         <span
                             className="text-sm">Выйти</span>
@@ -54,7 +54,7 @@ export default function Documents() {
                                 <div
                                     className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                                     <Image
-                                        src="/search.svg"/>
+                                        src="/public/search.svg"/>
                                 </div>
                                 <input
                                     type="text"
