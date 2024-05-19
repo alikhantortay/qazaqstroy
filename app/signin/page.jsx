@@ -28,7 +28,7 @@ export default function Signin() {
                         height: "30px",
                         marginBottom: "20px",
                     }}>
-                    <Image src='/logo.svg' />
+                    <Image src='/qazaqstroy/logo.svg' />
                 </div>
                 <span className="mb-5 text-xl font-medium">Войти в аккаунт</span>
 
